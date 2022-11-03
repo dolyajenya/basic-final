@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML/CSS to JS</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6">
+              <div class="local">
+                  <img src="icons/location.svg" alt="location" class="location-icon" />
+                  <span class="location-city">Kyiv, Ukraine</span>
+              </div>
+            </div>
+    
+            <form class="search-city">
+              <div class="row">
+                <div class="col-3">
+                  <input
+                  class="search-city"
+                  type="search-city"
+                  name="search"
+                  id="search"
+                  required
+                  />
+                </div>
+                <div class="col-3">
+                  <input
+                    type="submit"
+                    value="Search"
+                    class="form-control btn"
+                  />
+                </div>
+              </div>
+            </form>
+
+       <div class="row">
+        <div class="col-6">
+          <div class="today-degree">
+            <div class="float-left">
+              <span class="temperature">19</span
+              ><span class="units">°C | <a href="#">°F</a></span>
+            </div>
+          </div>
+        </div>
+
+              <div class="col-6">
+<div class="today-date">
+  <ul>
+    <li>
+        19 Sept | 22:22
+    </li>
+    <li>
+        Min: 10°C Max: 15°C
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+
+
+
+      <div class="row">
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              01:00
+              <br />
+              <img src="icons/night.svg" alt="night" class="weather-icon" />
+              <br />
+              10°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              02:00
+              <br />
+              <img src="icons/night.svg" alt="night" class="weather-icon" />
+              <br />
+              10°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              03:00
+              <br />
+              <img src="icons/night.svg" alt="night" class="weather-icon" />
+              <br />
+              10°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              04:00
+              <br />
+              <img src="icons/night.svg" alt="night" class="weather-icon" />
+              <br />
+              10°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              05:00
+              <br />
+              <img src="icons/night.svg" alt="night" class="weather-icon" />
+              <br />
+              10°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              06:00
+              <br />
+              <img src="icons/sunrise.svg" alt="sunrise" class="weather-icon" />
+              <br />
+              11°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              07:00
+              <br />
+              <img
+                src="icons/partly-cloudy.svg"
+                alt="night"
+                class="weather-icon"
+              />
+              <br />
+              12°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hourly-forecast">
+            <p>
+              08:00
+              <br />
+              <img src="icons/rain.svg" alt="rain" class="weather-icon" />
+              <br />
+              13°C
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="weekly-forecast">
+            <p>
+              Mon
+              <br />
+              <img src="icons/fog.svg" alt="fog" class="weather-icon" />
+              <br />
+              9°C / 15°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="weekly-forecast">
+            <p>
+              Tue
+              <br />
+              <img
+                src="icons/thunderstorm.svg"
+                alt="thunderstorm"
+                class="weather-icon"
+              />
+              <br />
+              10°C / 16°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="weekly-forecast">
+            <p>
+              Wed
+              <br />
+              <img src="icons/cloudy.svg" alt="cloudy" class="weather-icon" />
+              <br />
+              9°C / 15°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="weekly-forecast">
+            <p>
+              Thu
+              <br />
+              <img
+                src="icons/partly-cloudy.svg"
+                alt="fog"
+                class="weather-icon"
+              />
+              <br />
+              10°C / 16°C
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="weekly-forecast">
+            <p>
+              Fri
+              <br />
+              <img src="icons/sun.svg" alt="sun" class="weather-icon" />
+              <br />
+              11°C / 17°C
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
